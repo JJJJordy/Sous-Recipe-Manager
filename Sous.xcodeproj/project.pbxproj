@@ -29,9 +29,33 @@
 		8CC22F8A2F6A4E7E00D118F9 /* SousUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SousUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8CC22FB62F6A50B500D118F9 /* Exceptions for "Sous" folder in "Sous" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8CC22F722F6A4E7D00D118F9 /* Sous */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		8CC22FB72F6A50B500D118F9 /* Exceptions for "Sous" folder in "Compile Sources" phase from "Sous" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 8CC22F6F2F6A4E7D00D118F9 /* Sources */;
+			membershipExceptions = (
+				Info.plist,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8CC22F752F6A4E7D00D118F9 /* Sous */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8CC22FB62F6A50B500D118F9 /* Exceptions for "Sous" folder in "Sous" target */,
+				8CC22FB72F6A50B500D118F9 /* Exceptions for "Sous" folder in "Compile Sources" phase from "Sous" target */,
+			);
 			path = Sous;
 			sourceTree = "<group>";
 		};
