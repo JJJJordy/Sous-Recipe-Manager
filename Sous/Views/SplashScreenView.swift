@@ -27,9 +27,7 @@ struct SplashScreenView: View {
     // MARK: - Body
     var body: some View {
         if isActive {
-            Text("Coming soon")
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(SousTheme.cream)
+            AuthView()
         } else {
             GeometryReader { geo in
                 ZStack {
