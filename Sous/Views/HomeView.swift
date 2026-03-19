@@ -50,7 +50,7 @@ struct HomeView: View {
             get: { selectedTab == .add },
             set: { if !$0 { selectedTab = .home } }
         )) {
-            //AddRecipeView()
+            AddRecipeView()
         }
     }
 }
